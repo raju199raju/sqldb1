@@ -37,14 +37,12 @@ variable "read_scale" {
 variable "administrator_login" {
   type        = string
   description = "Optional: SQL server administrator login, needed to create SQL users"
-  sensitive   = true
   default = "sqladminuser"
 }
 
 variable "administrator_login_password" {
   type        = string
   description = "Optional: SQL server administrator login password, needed to create SQL users"
-  sensitive   = true
   default = "Adminpassword@12"
 }
 
