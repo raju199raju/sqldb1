@@ -8,17 +8,5 @@ provider "azurerm" {
      version = "~>2.0"
 }
 
-terraform {
-  required_providers {
-    null = {
-      source  = "hashicorp/null"
-      version = "3.0.0"
-    }
 
-    mssql = {
-      source  = "betr-io/mssql"
-      version = "0.2.0"
-    }
-  }
-}
 
