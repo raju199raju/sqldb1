@@ -20,3 +20,17 @@ provider "azurerm" {
   skip_provider_registration = true
   features {}
 }
+
+terraform {
+  required_providers {
+    null = {
+      source  = "hashicorp/null"
+      version = "3.0.0"
+    }
+
+    mssql = {
+      source  = "betr-io/mssql"
+      version = "0.2.0"
+    }
+  }
+}
