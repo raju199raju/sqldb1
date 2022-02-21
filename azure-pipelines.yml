@@ -2,7 +2,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  subscription: Visual Studio Professional(060c7910-de04-45a3-9953-ad495ae2be2b)
+  subscription: Visual Studio Professional (060c7910-de04-45a3-9953-ad495ae2be2b)
   resourceGroup: cloud-shell-storage-centralindia
   storageAccount: csg100320004eec02d2
   container: con
